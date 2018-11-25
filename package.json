@@ -1,8 +1,43 @@
 {
-  "name": "document-outline",
-  "main": "./lib/document-outline",
-  "version": "2.1.2",
+  "_from": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+  "_id": "document-outline@2.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-tZqASWA5doYMUb0ED4zsTNH60QijCtFy5N3ZQG/J9F4grU9tWrMzX9sOBfywcNz3bEnSwCtMdQj1w7DJxRWEYA==",
+  "_location": "/document-outline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+  "_shasum": "1b70d94cc0f0a2068d59b8ed243f58158f4dc583",
+  "_spec": "https://www.atom.io/api/packages/document-outline/versions/2.1.2/tarball",
+  "_where": "C:\\Users\\terat\\AppData\\Local\\Temp\\apm-install-dir-1181024-160552-j50w8m.s1l1c",
+  "bugs": {
+    "url": "https://github.com/mangecoeur/document-outline/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commonmark": "^0.28.0",
+    "etch": "^0.12.7"
+  },
+  "deprecated": false,
   "description": "Show a hierarchical outline of a text document",
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-google": "^0.6.0"
+  },
+  "engines": {
+    "atom": ">=1.22.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mangecoeur/document-outline#readme",
   "keywords": [
     "outline",
     "markdown",
@@ -14,11 +49,9 @@
     "asciidoc",
     "atom-ide"
   ],
-  "repository": "https://github.com/mangecoeur/document-outline",
   "license": "GPL-3.0",
-  "engines": {
-    "atom": ">=1.22.0 <2.0.0"
-  },
+  "main": "./lib/document-outline",
+  "name": "document-outline",
   "providedServices": {
     "outline-view": {
       "versions": {
@@ -26,12 +59,9 @@
       }
     }
   },
-  "dependencies": {
-    "commonmark": "^0.28.0",
-    "etch": "^0.12.7"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangecoeur/document-outline.git"
   },
-  "devDependencies": {
-    "eslint": "^3.7.0",
-    "eslint-config-google": "^0.6.0"
-  }
+  "version": "2.1.2"
 }
